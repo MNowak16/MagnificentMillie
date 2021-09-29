@@ -13,7 +13,12 @@ h1 { color: white;
     letter-spacing: 0.25em;
     padding-top: 0.5em;
     padding-bottom: 0.5em; }
-footer {  }
+footer { background-color: #FFFFFF;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 2em; }
 
 @font-face { font-family: 'GreatVibes';
     src: url("GreatVibes-Regular.ttf"); }
