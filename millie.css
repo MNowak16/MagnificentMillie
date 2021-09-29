@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body {  }
+header { font-family: GreatVibes;
+    text-align: center;
+    background-color: #7B7B84; }
+main {  }
+nav {  }
+nav a { text-decoration: none; }
+h1 { color: white;
+    text-shadow: 10px 10px 10px black;
+    margin-bottom: 0;
+    margin-top: 0;
+    letter-spacing: 0.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; }
+footer {  }
+
+@font-face { font-family: 'GreatVibes';
+    src: url("GreatVibes-Regular.ttf"); }
