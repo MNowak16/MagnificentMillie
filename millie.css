@@ -20,7 +20,8 @@ nav { background-color: white;
     margin: 0;
     padding-top: 0.25em;
     padding-bottom: 0.25em;
-    padding-right: 0; }
+    padding-right: 0;
+    text-decoration: none; }
 nav ul { list-style: none;
     margin: 0;
     padding-right: 2em;
@@ -59,7 +60,7 @@ footer { font-size: small;
 
 #homehero { float: right;
     margin: 5px 5px 5px 5px;
-    border: 0px solid black; }
+    border: 0 solid black; }
 
 #flow { display: block; }
 
