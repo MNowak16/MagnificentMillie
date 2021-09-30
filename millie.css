@@ -45,6 +45,7 @@ h2 { margin: 0;
     padding-bottom: 1em; }
 section { padding-left: 0.5em;
     padding-right: 0.5em; }
+video, embed { float: right; padding-left: 10px; }
 footer { font-size: small;
     font-style: italic;
     text-align: center;
@@ -59,30 +60,18 @@ footer { font-size: small;
     padding: 2em;
     box-shadow: 5px 5px black; }
 
-#homehero { float: right;
+#homehero { float: left;
     margin: 5px 5px 5px 5px;
-    border: 0 solid black; }
+    border: 1px solid black; }
+
+#abouthero { float: right;
+    margin: 5px 5px 5px 5px; }
 
 #flow { display: block; }
-
-table { border: 1px solid #40407A;
-    margin-bottom: 1em;
-    min-width: 400px;
-    border-collapse: collapse; }
-td { padding: 0.5em;
-    border: 1px solid #40407A; }
-th { padding: 0.5em;
-    border: 1px solid #40407A; }
-tr:nth-of-type(even) { background-color: #D7E8E9; }
-caption { margin: 1em;
-    font-weight: bold;
-    font-size: 120%; }
 
 form { display: flex;
     flex-flow: column nowrap; }
 input, datalist textarea { margin-bottom: 0.5em; }
-
-audio { margin-bottom: 1em; }
 
 @font-face { font-family: 'GreatVibes';
     src: url("GreatVibes-Regular.ttf"); }
