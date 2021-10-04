@@ -10,7 +10,6 @@ header { color: #FFFFFF;
     text-align: center;
     background-color: #7B7B84;
     margin-top: 25px; }
-header a { text-decoration: none; }
 nav { background-color: white;
     position: fixed; top: 0; left: 0;
     z-index: 9999;
@@ -32,7 +31,7 @@ nav li { display: inline;
     text-decoration: none; }
 nav a { text-decoration: none; }
 nav a:link { color: black; }
-nav a:visited { color: greenyellow; }
+nav a:visited { color: forestgreen; }
 nav a:hover { color: blueviolet; }
 h1 { color: white;
     text-shadow: 10px 10px 10px black;
@@ -42,9 +41,7 @@ h1 { color: white;
     padding-top: 0.5em;
     padding-bottom: 0.5em; }
 h2 { margin: 0;
-    padding-bottom: 1em; }
-section { padding-left: 0.5em;
-    padding-right: 0.5em; }
+    padding-bottom: 0.5em; }
 video, embed { float: right; padding-left: 10px; }
 footer { color: black;
     font-size: small;
@@ -61,7 +58,7 @@ footer { color: black;
 #wrapper { background: #FFFFFF;
     padding: 2em;
     box-shadow: 3px 3px black;
-    min-height: auto; }
+    overflow: auto; }
 #homehero { float: right;
     margin: 5px 5px 5px 5px;
     border: 1px solid black; }
