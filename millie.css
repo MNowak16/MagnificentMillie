@@ -42,6 +42,12 @@ h1 { color: white;
     padding-bottom: 0.5em; }
 h2 { margin: 0;
     padding-bottom: 0.5em; }
+h3 { font-family: GreatVibes;
+    font-size: 200%;
+    margin: 0;
+    padding-top: 0.5em; }
+p a { color: forestgreen;
+    text-decoration: none; }
 video, embed { float: right; padding-left: 10px; }
 footer { color: black;
     font-size: small;
@@ -59,8 +65,8 @@ footer { color: black;
     padding: 2em;
     box-shadow: 3px 3px black;
     overflow: auto; }
-#homehero { float: right;
-    margin: 5px 5px 5px 5px;
+#homehero { float: left;
+    margin: 5px 25px 5px 5px;
     border: 1px solid black; }
 #abouthero { float: right;
     margin: 5px 5px 5px 5px; }
@@ -84,6 +90,12 @@ input, datalist textarea { margin-bottom: 0.5em; }
     nav li { width: 7em; }
     section { padding-left: 2em;
         padding-right: 2em; }
+    form { width: 60%;
+        max-width: 40em;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-rows: auto;
+        grid-template-columns: 9em 1fr; }
     input[type="submit"] { grid-column: 2/3; width: 9em; }
 }
 
