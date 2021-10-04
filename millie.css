@@ -46,10 +46,12 @@ h2 { margin: 0;
 section { padding-left: 0.5em;
     padding-right: 0.5em; }
 video, embed { float: right; padding-left: 10px; }
-footer { font-size: small;
+footer { color: black;
+    font-size: small;
     font-style: italic;
     text-align: center;
-    clear: right; }
+    padding-top: 10px;
+    padding-bottom: 10px; }
 .home { height: 20vh;
     padding-top: 2em;
     padding-left: 10%; }
@@ -58,13 +60,13 @@ footer { font-size: small;
     padding-left: 10%; }
 #wrapper { background: #FFFFFF;
     padding: 2em;
-    box-shadow: 5px 5px black; }
-#homehero { float: left;
+    box-shadow: 3px 3px black;
+    min-height: auto; }
+#homehero { float: right;
     margin: 5px 5px 5px 5px;
     border: 1px solid black; }
 #abouthero { float: right;
     margin: 5px 5px 5px 5px; }
-#flow { display: block; }
 #gallery { display: grid;
     grid-template-columns: repeat(auto-fill, 410px);
     grid-template-rows: auto;
@@ -85,18 +87,6 @@ input, datalist textarea { margin-bottom: 0.5em; }
     nav li { width: 7em; }
     section { padding-left: 2em;
         padding-right: 2em; }
-    #mathero { display: block;
-        padding-bottom: 1em; }
-    #loungehero { display: block;
-        padding-bottom: 1em; }
-    #flow { display: flex;
-        flex-direction: row; }
-    form { width: 60%;
-        max-width: 40em;
-        display: grid;
-        grid-gap: 1em;
-        grid-template-rows: auto;
-        grid-template-columns: 9em 1fr; }
     input[type="submit"] { grid-column: 2/3; width: 9em; }
 }
 
