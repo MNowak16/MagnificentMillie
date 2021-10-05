@@ -65,6 +65,10 @@ footer { color: black;
     grid-template-rows: auto;
     grid-gap: 2em;
     gap: 2em; }
+#contacthero { float: right;
+    margin: 5px 5px 5px 5px;
+    transform: rotate(3deg);
+    display: none; }
 form { display: flex;
     flex-flow: column nowrap; }
 input, datalist textarea { margin-bottom: 0.5em; }
@@ -80,7 +84,7 @@ input, datalist textarea { margin-bottom: 0.5em; }
     nav li { width: 7em; }
     section { padding-left: 2em;
         padding-right: 2em; }
-    form { width: 60%;
+        form { width: 60%;
         max-width: 40em;
         display: grid;
         grid-gap: 1em;
@@ -94,4 +98,5 @@ input, datalist textarea { margin-bottom: 0.5em; }
     nav { font-weight: bold; }
     #wrapper { margin: auto;
         width: 80%; }
+    #contacthero { display: inline; }
 }
