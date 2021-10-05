@@ -38,8 +38,6 @@ h1 { color: white;
     padding-bottom: 0.5em; }
 h2 { margin: 0;
     padding-bottom: 0.5em; }
-p a { color: forestgreen;
-    text-decoration: none; }
 video, embed { float: right; padding-left: 10px; }
 footer { color: black;
     font-size: small;
@@ -51,6 +49,8 @@ footer { color: black;
     font-size: 200%;
     margin: 0;
     padding-top: 0.5em; }
+.link { color: forestgreen;
+    text-decoration: none; }
 #wrapper { background: #FFFFFF;
     padding: 2em;
     box-shadow: 3px 3px black;
