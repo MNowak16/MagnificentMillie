@@ -47,8 +47,7 @@ footer { color: black;
     padding-bottom: 10px; }
 .welcome { font-family: GreatVibes;
     font-size: 200%;
-    margin: 0;
-    padding-top: 0.5em; }
+    margin-top: 0.5em; }
 .link { color: forestgreen;
     text-decoration: none; }
 #wrapper { background: #FFFFFF;
@@ -69,6 +68,9 @@ footer { color: black;
     margin: 5px 5px 5px 5px;
     transform: rotate(3deg);
     display: none; }
+#listimg { list-style-image: url("pawprint_xsmall.png");
+    margin-left: 140px;
+    padding-left: 140px;}
 form { display: flex;
     flex-flow: column nowrap; }
 input, datalist textarea { margin-bottom: 0.5em; }
